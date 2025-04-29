@@ -1,0 +1,22 @@
+<h2>Order Rahat Piles</h2>
+<form #orderForm="ngForm" (ngSubmit)="onSubmit()">
+  <label>Name:
+    <input type="text" name="name" [(ngModel)]="form.name" required />
+  </label><br />
+
+  <label>Email:
+    <input type="email" name="email" [(ngModel)]="form.email" required />
+  </label><br />
+
+  <label>Address:
+    <textarea name="address" [(ngModel)]="form.address" required></textarea>
+  </label><br />
+
+  <label>Quantity:
+    <input type="number" name="quantity" [(ngModel)]="form.quantity" required />
+  </label><br />
+
+  <button type="submit">Submit Order</button>
+</form>
+
+<p *ngIf="submitted">Thank you! We will contact you soon.</p>
