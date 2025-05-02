@@ -5,10 +5,11 @@ import { NavbarComponent } from "./components/navbar/navbar.component";
 import { ContactComponent } from "./components/contact/contact.component";
 import { HomeComponent } from "./components/home/home.component";
 import { ProductComponent } from "./components/product/product.component";
+import { AboutComponent } from "./about/about.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NavbarComponent, FormsModule, ContactComponent, HomeComponent, ProductComponent],
+  imports: [RouterOutlet, NavbarComponent, FormsModule, ContactComponent, HomeComponent, ProductComponent, AboutComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

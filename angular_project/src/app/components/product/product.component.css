@@ -1,5 +1,7 @@
 section {
-    background-color: #f9f9f9;
+    background: linear-gradient(to right, #b2dfdb, #a5d6a7); /* Teal-green to herbal green */
+    color: #1b5e20; /* Deep green text for good contrast */
+    /* background-color: #f9f9f9; */
     padding: 40px 20px;
     border-radius: 10px;
     /* max-width: 700px; */
@@ -9,9 +11,11 @@ section {
   }
   
   section h2 {
-    font-size: 28px;
+    text-align: center;
+    color: #2c5c3f;
+    font-size: 2.5em;
+    margin-top: 40px;
     margin-bottom: 20px;
-    color: #2c3e50;
   }
   
   section p {
@@ -48,4 +52,7 @@ section {
   section a:hover {
     background-color: #219150;
   }
-  
+
+  .contact-btn {
+    width: auto;
+  }

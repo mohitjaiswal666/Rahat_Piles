@@ -1,11 +1,22 @@
 <section>
-    <h2>About Rahat Piles</h2>
-    <p>Rahat Piles is a 100% Ayurvedic product that offers a natural and permanent cure for Piles.</p>
+    <h2>Why To Choose Rahat Piles?</h2>
     <ul>
-      <p>100% Natural Ingredients</p>
+      <p>100% Ayurvedic & Non-Surgical Treatment</p>
       <p>No Side Effects</p>
+      <p>Proven Relief from Piles</p>
       <p>Fast and Effective</p>
+      <p>High Patient Satisfaction & Success Rate</p>
     </ul>
-    <a routerLink="/contact">Contact Us</a>
+    <button class="contact-btn" (click)="openModal()">Contact Us</button>
   </section>
+
+  <div class="modal" *ngIf="isModalOpen" (click)="closeModal($event)">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <span class="close" (click)="closeModal()">&times;</span>
+      <h2>Contact Us</h2>
+      <p>Email: rahatpiles&#64;gmail.com</p>
+      <p>Phone: +91-9263049396</p>
+      <p>Address: Rayanji Road, Purana Bazar, Near Jai Mata Di Sweets, Dhanbad, Jharkhand - 826001</p>
+    </div>
+  </div>
   
