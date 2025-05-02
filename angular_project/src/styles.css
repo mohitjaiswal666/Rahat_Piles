@@ -42,10 +42,11 @@ section {
   /* General Form Styling */
 h2 {
     text-align: center;
+    font-size: 33px;
 }  
 form {
     width: 100%;
-    max-width: 500px;
+    max-width: 680px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;

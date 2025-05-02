@@ -15,9 +15,9 @@ export class HomeComponent {
   constructor(private router: Router) {}
 
   // Method to navigate to the learn more page
-  learnMore() {
-    console.log('abc');
-    // this.router.navigate(['/learn-more']);
-  }
+  // learnMore() {
+  //   console.log('abc');
+  //   // this.router.navigate(['/learn-more']);
+  // }
 
 }
